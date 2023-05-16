@@ -1,6 +1,10 @@
 # OG Image Generator
 
-Hi, this is a OG Image generator for [andreapavone.com](https://andreapavone.com)
+![OG IMAGE](og_image.png)
+
+Hi, this is a OG Image generator for [andreapavone.com](https://andreapavone.com),
+
+Is a Next.js app that generate image for `og:image` tag, based on page title and description using [Vercel Edge Functions](https://vercel.com/features/edge-functions)
 
 ### Usage
 
