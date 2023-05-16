@@ -1,6 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OG Image Generator
 
-## Getting Started
+Hi, this is a OG Image generator for [andreapavone.com](https://andreapavone.com)
+
+### Usage
+
+```html
+<meta property="og:image" content="https://og.andreapavone.com/api/og?title={{ title }}&payoff={{ payoff }}" />
+```
+
+
+
+## Local Development
 
 First, run the development server:
 
