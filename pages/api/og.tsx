@@ -24,7 +24,7 @@ export default function (request: NextRequest) {
             (
                 <div
                     style={{
-                        padding: '30px',
+                        padding: '60px',
                         display: 'flex',
                         color: 'black',
                         background: '#fcfcfc',
@@ -100,20 +100,23 @@ export default function (request: NextRequest) {
                     </svg>
 
                     <h1 style={{
-                        fontSize: 72
+                        fontSize: 84,
+                        fontWeight: "bold",
                     }}>
                         {title}
                     </h1>
 
-                    <h1 style={{
-                        fontSize: 40,
+                    <h2 style={{
+                        fontSize: 70,
                         color: '#484848'
                     }}>
                         {payoff}
-                    </h1>
+                    </h2>
+
+
 
                     <div style={{
-                        fontSize: 16,
+                        fontSize: 32,
                         display: 'flex',
                         width: '100%',
                         flexDirection: 'row',
