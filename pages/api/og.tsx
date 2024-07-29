@@ -104,14 +104,14 @@ export default function (request: NextRequest) {
 
                     <h1 style={{
                         fontSize: 120,
-                        fontWeight: "bolder",
+                        fontWeight: 900,
                     }}>
                         {title}
                     </h1>
 
                     <h2 style={{
                         fontSize: 90,
-                        fontWeight: "bold",
+                        fontWeight: 700,
                         color: '#2e2e2e'
                     }}>
                         {payoff}
