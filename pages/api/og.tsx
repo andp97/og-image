@@ -103,15 +103,16 @@ export default function (request: NextRequest) {
                     </svg>
 
                     <h1 style={{
-                        fontSize: 90,
-                        fontWeight: "bold",
+                        fontSize: 120,
+                        fontWeight: "bolder",
                     }}>
                         {title}
                     </h1>
 
                     <h2 style={{
-                        fontSize: 75,
-                        color: '#484848'
+                        fontSize: 90,
+                        fontWeight: "bold",
+                        color: '#2e2e2e'
                     }}>
                         {payoff}
                     </h2>
